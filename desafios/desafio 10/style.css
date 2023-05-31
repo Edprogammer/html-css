@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); Bebas Neue
+body{
+    background-color: rgba(106, 255, 185, 0.795);
+    width: 200;
+    margin: 0% ;
+}
+main{
+    margin: 0px 250px 0px 250px;
+    background-color: white;
+    box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.37);
+}
+header{
+    background-image: linear-gradient(to bottom, #8cf89b 20%, #24D450, #153a1a );
+    margin: auto;
+}
+h1{
+    margin: 0%;
+    font-family: 'Bebas Neue'
+}
+header > h1{
+    text-align: center;
+    color: white;
+    font-family: 'arial';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 150%;
+    margin: 0%;
+    padding: 20px 10px 10px 10px;
+}
+header > p{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav > a{
+    text-decoration: none;
+    color: rgba(163, 235, 145, 0.377);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 2px;
+    font-weight: bold;
+    font-size: 90%;
+    margin: 5px;
+}
+a:hover{
+    text-decoration: underline black;
+    background-color: #025216ab;
+}
+section > h1{
+    text-indent: 10px;
+    font-family: 'idroid';
+    color: #14381d;
+    font-weight: normal;
+}
+h2 {
+    text-indent: 6px;
+    font-family: 'idroid';
+    font-weight: normal;
+    color: #14381d;
+    background-image: linear-gradient(to right,#2d6e3656,  rgba(0, 128, 0, 0.315), white);
+    margin: 0px 0px 0px 16px;
+}
+article{
+    text-align: justify;
+    text-indent: 16px;
+    padding: 0px 9px 0px 9px;
+}
+#robo{
+    padding: 0px 25px;
+    margin: 0px 0px 0px -40px
+}
+#irina{
+    margin: 0px 20px 0px 9px;
+}
+#android{
+    padding: 0px 28px 0px 267px;
+}
+#video{
+    padding: 7px 0px 7px 4px;
+}
+#ze{
+    background-color: rgba(12, 48, 12, 0.836);
+}
+a{
+    background-color: #24d4508e;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif
+}
+a::after{
+    content: '🔗';
+}
+#principal{
+    font-family: 'Bebas Neue';
+}
