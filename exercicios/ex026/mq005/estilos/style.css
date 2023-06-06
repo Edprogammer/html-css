@@ -10,8 +10,6 @@ html{
 }
 header{
     background-color: rgb(104, 104, 104);
-}
-menu{
     min-width: 280px;
     width: 100vw;
 }
